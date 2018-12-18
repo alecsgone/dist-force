@@ -1,0 +1,17 @@
+{
+  "name": "dist-force",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/cli.js",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "prepublish": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "gh-pages": "^2.0.1"
+  }
+}
