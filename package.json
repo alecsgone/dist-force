@@ -4,9 +4,6 @@
   "description": "",
   "main": "lib/cli.js",
   "bin": "lib/cli.js",
-  "scripts": {
-    "prepublish": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
