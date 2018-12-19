@@ -35,6 +35,17 @@ npx dist-force -o upstream
 
 ## Future options
 
+
+### -f, --files (aditional to package.json)
+Include the dist folder instead of the `lib` folder
+```
+npx dist-force -f dist
+```
+Include root files instead of the `lib` folder
+```
+npx dist-force -f foo.js,bar.js,baz.js
+```
+
 ### -P, --no-push
 Prevent publishing the branch
 ```
