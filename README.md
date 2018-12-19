@@ -1,5 +1,13 @@
 # dist-force
 Publish your lib forder to a branch instead of npm to reference github in your `package.json`
+```json
+...
+"dependencies": {
+  "foo": "git+ssh://git@github.com:user/foo.git#npm"
+}
+...
+```
+
 
 ## How ?
 ```sh
