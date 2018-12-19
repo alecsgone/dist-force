@@ -13,7 +13,7 @@ Publish your lib forder to a branch instead of npm to reference github in your `
 ```sh
 npx dist-force
 ```
-This command will run `prepublishOnly || prepublish || prepare` and create a branch called `npm` and a tag with the current `package.json` version field so you can use your module builded like:
+This command will run `prepublishOnly || prepublish || prepare` and create a branch called `npm` and a tag with the current `package.json` version field so you can use your module like:
 ```sh
 npm i -D git+ssh://git@github.com:<user>/<repo>.git#npm
 ```
